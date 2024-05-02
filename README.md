@@ -3,8 +3,10 @@ Create venv:
 
 cd <project_path>
 python -m venv venv
+
 Linux:
 source venv/bin/activate
+
 Windows:
 venv\Scripts\activate
 
