@@ -41,6 +41,7 @@ class Defillama:
             'profile.default_content_settings.popups': 0
         })
         browser_options.add_experimental_option('useAutomationExtension', False)
+
         if proxy:
             browser_options.add_argument(f'--proxy-server={proxy}')
 
